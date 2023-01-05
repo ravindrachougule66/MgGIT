@@ -27,9 +27,9 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="738525" _time="61612" date="05/01/2023" time="17:06:52"/>
+          <LastModified _date="738525" _time="65117" date="05/01/2023" time="18:05:17"/>
         </Header>
-        <ItemIsn val="2"/>
+        <ItemIsn val="4"/>
         <Resource>
           <Columns>
             <Column id="33554433" name="A">
@@ -47,6 +47,24 @@
                 <Picture id="157" valUnicode="50"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="500"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554435" name="C">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554436" name="D">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="10"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="10"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -143,6 +161,30 @@
               <LogicLine>
                 <Select FieldID="33554434" FlowIsn="33554436" id="33554434">
                   <Column val="33554434"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554435" FlowIsn="33554437" id="33554435">
+                  <Column val="33554435"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554436" FlowIsn="33554438" id="33554436">
+                  <Column val="33554436"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
