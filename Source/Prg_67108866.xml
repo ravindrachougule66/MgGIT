@@ -50,12 +50,12 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="67108867" name="B">
+            <Column id="67108867" name="C">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="10"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="100"/>
+                <Size id="174" val="200"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
